@@ -2,7 +2,6 @@ const discord = require("discord.js");
 const bot = new Discord.Client();
 
 
-
 bot.on("ready", () => {
   console.log("bot is working");
 });
