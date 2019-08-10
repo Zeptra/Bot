@@ -8,8 +8,8 @@ bot.on("ready", () => {
 });
 
 bot.on("message", msg => {
-  if (msg.content) === "hello") {
-    msg.reply("hello");
+  if (msg.content) === "help") {
+    msg.reply("create: create a new ticket.");
   }
 });
 
